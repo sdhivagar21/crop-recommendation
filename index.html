@@ -57,7 +57,7 @@
 
         try {
             // Pointing to your local Python API
-            const response = await fetch('https://crop-recommendation-ykv4.onrender.com', {
+            const response = await fetch('https://crop-recommendation-ykv4.onrender.com/predict', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
